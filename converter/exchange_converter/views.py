@@ -13,4 +13,4 @@ def index(request):
             return render(request, 'exchange_converter/base.html', {'form': form, 'exch': exch})
     else:
         form=CurencyForm()
-    return render(request,'exchange_converter/base.html',{'form':form})
+        return render(request,'exchange_converter/base.html',{'form':form})
